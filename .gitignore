@@ -1,0 +1,20 @@
+# Local recovery snapshots and one-off reconstruction tools
+/.recovery/
+/scripts/restore_design.py
+/scripts/write_complete_site.py
+
+# Superseded model viewer, retained locally
+/viewer.js
+/assets/models/
+/assets/mid_century_lounge_chair_preview.webp
+/scripts/fetch_cc0_models.py
+
+# Local tooling and operating system files
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
